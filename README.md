@@ -1,29 +1,31 @@
 # 🐢 Turtle Race Betting: Full-Stack Web App
 
+![Python](https://img.shields.io/badge/Python-Flask-blue?style=for-the-badge&logo=python)
+![JavaScript](https://img.shields.io/badge/Frontend-Canvas_API-yellow?style=for-the-badge&logo=javascript)
+![Database](https://img.shields.io/badge/Database-SQLite-lightgrey?style=for-the-badge&logo=sqlite)
+
 A modern, interactive betting application built with **Flask** and **Vanilla JavaScript**. This project demonstrates real-time Canvas API animations, RESTful API design, database persistence, and Web Audio synthesis.
 
-![Project Screenshot](link-to-your-screenshot.png)
+## 🚀 Key Features
 
-## 🚀 Features
-
-* **Real-time Race Simulation:** Custom-built physics engine using HTML5 Canvas (60 FPS).
-* **Persistent Data:** Uses SQLite and SQLAlchemy to track user balance and bet history across sessions.
-* **Synthesized Audio:** Custom Web Audio API implementation for dynamic sound effects (no external assets).
-* **Secure Backend:** Server-side validation for all bets and race outcomes.
-* **Responsive UI:** Mobile-first design using Tailwind CSS and glassmorphism aesthetics.
+* **Provably Fair Algorithm:** Implements a **weighted probability engine** where win rates are mathematically tied to the user's chosen risk multiplier (e.g., 9x payout = 10% win chance), enforcing a consistent House Edge.
+* **Real-time Race Simulation:** Custom-built physics engine using HTML5 Canvas (60 FPS) that visualizes the server-side outcome.
+* **Persistent Banking:** Uses **SQLite** and **SQLAlchemy** to track user balance, wins, and losses across different sessions.
+* **Synthesized Audio:** Custom Web Audio API implementation for dynamic sound effects (whistles, victory fanfares) without external assets.
+* **Risk Control:** Dynamic slider allowing users to adjust their risk/reward ratio from **1.5x (Safe)** to **10.0x (High Risk)**.
 
 ## 🛠️ Tech Stack
 
-* **Backend:** Python 3.10+, Flask, SQLAlchemy
+* **Backend:** Python 3, Flask, SQLAlchemy
 * **Frontend:** JavaScript (ES6+), HTML5 Canvas, Tailwind CSS
-* **Database:** SQLite
+* **Database:** SQLite (Relational DB)
 
 ## ⚙️ Installation & Setup
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/yourusername/turtle-race-betting.git](https://github.com/yourusername/turtle-race-betting.git)
-    cd turtle-race-betting
+    git clone [https://github.com/ZeelModi4/turtle_race.git](https://github.com/ZeelModi4/turtle_race.git)
+    cd turtle_race
     ```
 
 2.  **Install Dependencies**
@@ -37,8 +39,8 @@ A modern, interactive betting application built with **Flask** and **Vanilla Jav
     ```
     The app will start at `http://127.0.0.1:5000`.
 
-## 🧪 Running Tests
+## 📸 Project Context
+This project was developed to demonstrate full-stack proficiency, specifically focusing on the integration between a Python backend logic layer and a reactive JavaScript frontend. It handles state management, user authentication simulation, and mathematical probability logic.
 
-This project includes a unit testing suite to ensure financial logic reliability.
-```bash
-python tests.py
+---
+**Author:** Zeel Modi
