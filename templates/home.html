@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Turtle Race Betting</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white flex items-center justify-center p-4">
+
+    <div class="max-w-md w-full bg-slate-800/50 backdrop-blur-md rounded-2xl p-8 border border-purple-500/30 shadow-2xl text-center">
+        
+        <div class="text-6xl mb-6 animate-bounce">🐢</div>
+        
+        <h1 class="text-4xl font-bold mb-2 bg-gradient-to-r from-purple-400 to-pink-600 text-transparent bg-clip-text">
+            Turtle Race Betting
+        </h1>
+        <p class="text-gray-400 mb-8">High stakes. Slow turtles. Big wins.</p>
+
+        <form action="/" method="POST" class="space-y-6">
+            <div class="text-left">
+                <label class="block text-sm text-gray-400 mb-2">Racer Name</label>
+                <input type="text" name="username" required placeholder="Enter your name..."
+                    class="w-full bg-slate-700/50 border border-slate-600 rounded-xl px-5 py-3 text-white focus:outline-none focus:ring-2 focus:ring-purple-500 transition-all">
+            </div>
+
+            <button type="submit" 
+                class="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-bold py-4 rounded-xl transition-all transform hover:scale-105 shadow-lg shadow-purple-900/50">
+                Enter the Arena 🚀
+            </button>
+        </form>
+
+        <div class="mt-8 pt-6 border-t border-slate-700/50 text-sm text-gray-500">
+            <p>Rules: Pick a turtle. Bet up to $20. Win 3x.</p>
+        </div>
+    </div>
+
+</body>
+</html>
