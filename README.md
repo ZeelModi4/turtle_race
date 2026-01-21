@@ -43,4 +43,4 @@ A modern, interactive betting application built with **Flask** and **Vanilla Jav
 This project was developed to demonstrate full-stack proficiency, specifically focusing on the integration between a Python backend logic layer and a reactive JavaScript frontend. It handles state management, user authentication simulation, and mathematical probability logic.
 
 ---
-**Author:** Zeel Modi
+**Author:** Zeel Modi, Krina Patel
